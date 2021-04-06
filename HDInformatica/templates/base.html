@@ -1,0 +1,25 @@
+{% load static %}
+<html>   
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+<head> 
+
+    <title>
+        {% block title %} {% endblock %}
+    </title>
+
+</head>
+
+<body>
+
+    <h1>HDInform&aacute;tica</h1>
+    <h3>Soluciones de computaci&oacute;, cursos online, creaci&oacute;n de contenido, y más</h3>
+
+    {% block content %}
+    {% endblock %}
+
+    <p>Cont&aacute;ctenos !!</p>
+
+</body>
+
+
+</html>
